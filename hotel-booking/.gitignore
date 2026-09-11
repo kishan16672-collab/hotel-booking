@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+node_modules
+.env
+.env.*
+distgit add .
+git commit -m "Chore: Remove node_modules and .env"
+git push
